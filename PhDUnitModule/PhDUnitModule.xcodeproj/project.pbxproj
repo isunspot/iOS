@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* PhDUnitModuleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PhDUnitModuleAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* PhDUnitModuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* PhDUnitModuleViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* PhDUnitModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* PhDUnitModuleViewController.m */; };
+		5C0497F9139DCD3700470E69 /* PhDinStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0497F8139DCD3700470E69 /* PhDinStream.m */; };
+		5C0497FE139DCD5100470E69 /* PhDoutStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0497FD139DCD5100470E69 /* PhDoutStream.m */; };
+		5C049844139E136D00470E69 /* PhDinXmlStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C049843139E136D00470E69 /* PhDinXmlStream.m */; };
+		5C0639D513A6FBC0006767EC /* PhDinPInfoStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0639D413A6FBC0006767EC /* PhDinPInfoStream.m */; };
+		5C0A9985139F400E00AF853D /* PhDStreamElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A9984139F400E00AF853D /* PhDStreamElement.m */; };
+		5C0A9ADC139F77F300AF853D /* sample.phd in Resources */ = {isa = PBXBuildFile; fileRef = 5C0A9ADB139F77F300AF853D /* sample.phd */; };
+		5C68909113A214830096BD15 /* PhDinAllStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C68909013A214830096BD15 /* PhDinAllStream.m */; };
+		5C68909313A215670096BD15 /* sample.pha in Resources */ = {isa = PBXBuildFile; fileRef = 5C68909213A215670096BD15 /* sample.pha */; };
+		5CE583B3139488B500048318 /* PhDSearchXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE583B2139488B500048318 /* PhDSearchXmlParser.m */; };
+		5CE58442139494D200048318 /* search_engine.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5CE58441139494D200048318 /* search_engine.xml */; };
+		5CE586111394E22A00048318 /* ui_master.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5CE586101394E22A00048318 /* ui_master.xml */; };
+		5CE639341395D82E00D96D38 /* PhDMasterXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE639331395D82E00D96D38 /* PhDMasterXmlParser.m */; };
+		5CF09D5813A5B36200B79614 /* PhDinInitStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF09D5713A5B36200B79614 /* PhDinInitStream.m */; };
+		5CF09DFE13A5CEF100B79614 /* PhDinHeadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF09DFD13A5CEF100B79614 /* PhDinHeadStream.m */; };
+		5CF09E0913A5D04700B79614 /* PhDinFlagStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF09E0813A5D04700B79614 /* PhDinFlagStream.m */; };
+		5CF09EDA13A5DD2100B79614 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF09ED913A5DD2100B79614 /* libz.dylib */; };
+		5CF09FA713A5F36E00B79614 /* PhDinPictStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF09FA613A5F36E00B79614 /* PhDinPictStream.m */; };
+		5CF09FAD13A5F46A00B79614 /* PhDinPHeadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF09FAC13A5F46A00B79614 /* PhDinPHeadStream.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PhDUnitModuleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDUnitModuleAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PhDUnitModuleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhDUnitModuleAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* PhDUnitModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhDUnitModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* PhDUnitModuleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhDUnitModuleViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* PhDUnitModuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDUnitModuleViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* PhDUnitModuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhDUnitModuleViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* PhDUnitModule_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDUnitModule_Prefix.pch; sourceTree = "<group>"; };
+		5C0497F7139DCD3700470E69 /* PhDinStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDinStream.h; sourceTree = "<group>"; };
+		5C0497F8139DCD3700470E69 /* PhDinStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhDinStream.m; sourceTree = "<group>"; };
+		5C0497FC139DCD5100470E69 /* PhDoutStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDoutStream.h; sourceTree = "<group>"; };
+		5C0497FD139DCD5100470E69 /* PhDoutStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhDoutStream.m; sourceTree = "<group>"; };
+		5C049842139E136D00470E69 /* PhDinXmlStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDinXmlStream.h; sourceTree = "<group>"; };
+		5C049843139E136D00470E69 /* PhDinXmlStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhDinXmlStream.m; sourceTree = "<group>"; };
+		5C0639D313A6FBC0006767EC /* PhDinPInfoStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDinPInfoStream.h; sourceTree = "<group>"; };
+		5C0639D413A6FBC0006767EC /* PhDinPInfoStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhDinPInfoStream.m; sourceTree = "<group>"; };
+		5C0A9983139F400E00AF853D /* PhDStreamElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDStreamElement.h; sourceTree = "<group>"; };
+		5C0A9984139F400E00AF853D /* PhDStreamElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhDStreamElement.m; sourceTree = "<group>"; };
+		5C0A9ADB139F77F300AF853D /* sample.phd */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.phd; sourceTree = "<group>"; };
+		5C688FB413A1F9780096BD15 /* PhDtypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDtypeDef.h; sourceTree = "<group>"; };
+		5C68908F13A214830096BD15 /* PhDinAllStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDinAllStream.h; sourceTree = "<group>"; };
+		5C68909013A214830096BD15 /* PhDinAllStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhDinAllStream.m; sourceTree = "<group>"; };
+		5C68909213A215670096BD15 /* sample.pha */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.pha; sourceTree = "<group>"; };
+		5CE583B1139488B500048318 /* PhDSearchXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDSearchXmlParser.h; sourceTree = "<group>"; };
+		5CE583B2139488B500048318 /* PhDSearchXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhDSearchXmlParser.m; sourceTree = "<group>"; };
+		5CE58441139494D200048318 /* search_engine.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = search_engine.xml; sourceTree = "<group>"; };
+		5CE586101394E22A00048318 /* ui_master.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ui_master.xml; sourceTree = "<group>"; };
+		5CE639321395D82E00D96D38 /* PhDMasterXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDMasterXmlParser.h; sourceTree = "<group>"; };
+		5CE639331395D82E00D96D38 /* PhDMasterXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhDMasterXmlParser.m; sourceTree = "<group>"; wrapsLines = 1; };
+		5CF09D5613A5B36200B79614 /* PhDinInitStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDinInitStream.h; sourceTree = "<group>"; };
+		5CF09D5713A5B36200B79614 /* PhDinInitStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhDinInitStream.m; sourceTree = "<group>"; };
+		5CF09DFC13A5CEF100B79614 /* PhDinHeadStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDinHeadStream.h; sourceTree = "<group>"; };
+		5CF09DFD13A5CEF100B79614 /* PhDinHeadStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhDinHeadStream.m; sourceTree = "<group>"; };
+		5CF09E0713A5D04700B79614 /* PhDinFlagStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDinFlagStream.h; sourceTree = "<group>"; };
+		5CF09E0813A5D04700B79614 /* PhDinFlagStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhDinFlagStream.m; sourceTree = "<group>"; };
+		5CF09ED913A5DD2100B79614 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		5CF09FA513A5F36E00B79614 /* PhDinPictStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDinPictStream.h; sourceTree = "<group>"; };
+		5CF09FA613A5F36E00B79614 /* PhDinPictStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhDinPictStream.m; sourceTree = "<group>"; };
+		5CF09FAB13A5F46A00B79614 /* PhDinPHeadStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhDinPHeadStream.h; sourceTree = "<group>"; };
+		5CF09FAC13A5F46A00B79614 /* PhDinPHeadStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhDinPHeadStream.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* PhDUnitModule-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PhDUnitModule-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				5CF09EDA13A5DD2100B79614 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5C0497FC139DCD5100470E69 /* PhDoutStream.h */,
+				5C0497FD139DCD5100470E69 /* PhDoutStream.m */,
+				5C0497F7139DCD3700470E69 /* PhDinStream.h */,
+				5C0497F8139DCD3700470E69 /* PhDinStream.m */,
+				1D3623240D0F684500981E51 /* PhDUnitModuleAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PhDUnitModuleAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* PhDUnitModuleViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* PhDUnitModuleViewController.m */,
+				5CE583B1139488B500048318 /* PhDSearchXmlParser.h */,
+				5CE583B2139488B500048318 /* PhDSearchXmlParser.m */,
+				5CE639321395D82E00D96D38 /* PhDMasterXmlParser.h */,
+				5CE639331395D82E00D96D38 /* PhDMasterXmlParser.m */,
+				5C049842139E136D00470E69 /* PhDinXmlStream.h */,
+				5C049843139E136D00470E69 /* PhDinXmlStream.m */,
+				5C0A9983139F400E00AF853D /* PhDStreamElement.h */,
+				5C0A9984139F400E00AF853D /* PhDStreamElement.m */,
+				5C688FB413A1F9780096BD15 /* PhDtypeDef.h */,
+				5C68908F13A214830096BD15 /* PhDinAllStream.h */,
+				5C68909013A214830096BD15 /* PhDinAllStream.m */,
+				5CF09D5613A5B36200B79614 /* PhDinInitStream.h */,
+				5CF09D5713A5B36200B79614 /* PhDinInitStream.m */,
+				5CF09DFC13A5CEF100B79614 /* PhDinHeadStream.h */,
+				5CF09DFD13A5CEF100B79614 /* PhDinHeadStream.m */,
+				5CF09E0713A5D04700B79614 /* PhDinFlagStream.h */,
+				5CF09E0813A5D04700B79614 /* PhDinFlagStream.m */,
+				5CF09FA513A5F36E00B79614 /* PhDinPictStream.h */,
+				5CF09FA613A5F36E00B79614 /* PhDinPictStream.m */,
+				5CF09FAB13A5F46A00B79614 /* PhDinPHeadStream.h */,
+				5CF09FAC13A5F46A00B79614 /* PhDinPHeadStream.m */,
+				5C0639D313A6FBC0006767EC /* PhDinPInfoStream.h */,
+				5C0639D413A6FBC0006767EC /* PhDinPInfoStream.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* PhDUnitModule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* PhDUnitModule_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C68909213A215670096BD15 /* sample.pha */,
+				5C0A9ADB139F77F300AF853D /* sample.phd */,
+				5CE586101394E22A00048318 /* ui_master.xml */,
+				5CE58441139494D200048318 /* search_engine.xml */,
+				2899E5210DE3E06400AC0155 /* PhDUnitModuleViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* PhDUnitModule-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CF09ED913A5DD2100B79614 /* libz.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* PhDUTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PhDUTest" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhDUTest;
+			productName = PhDUnitModule;
+			productReference = 1D6058910D05DD3D006BFB54 /* PhDUnitModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PhDUnitModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* PhDUTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* PhDUnitModuleViewController.xib in Resources */,
+				5CE58442139494D200048318 /* search_engine.xml in Resources */,
+				5CE586111394E22A00048318 /* ui_master.xml in Resources */,
+				5C0A9ADC139F77F300AF853D /* sample.phd in Resources */,
+				5C68909313A215670096BD15 /* sample.pha in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PhDUnitModuleAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* PhDUnitModuleViewController.m in Sources */,
+				5CE583B3139488B500048318 /* PhDSearchXmlParser.m in Sources */,
+				5CE639341395D82E00D96D38 /* PhDMasterXmlParser.m in Sources */,
+				5C0497F9139DCD3700470E69 /* PhDinStream.m in Sources */,
+				5C0497FE139DCD5100470E69 /* PhDoutStream.m in Sources */,
+				5C049844139E136D00470E69 /* PhDinXmlStream.m in Sources */,
+				5C0A9985139F400E00AF853D /* PhDStreamElement.m in Sources */,
+				5C68909113A214830096BD15 /* PhDinAllStream.m in Sources */,
+				5CF09D5813A5B36200B79614 /* PhDinInitStream.m in Sources */,
+				5CF09DFE13A5CEF100B79614 /* PhDinHeadStream.m in Sources */,
+				5CF09E0913A5D04700B79614 /* PhDinFlagStream.m in Sources */,
+				5CF09FA713A5F36E00B79614 /* PhDinPictStream.m in Sources */,
+				5CF09FAD13A5F46A00B79614 /* PhDinPHeadStream.m in Sources */,
+				5C0639D513A6FBC0006767EC /* PhDinPInfoStream.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PhDUnitModule_Prefix.pch;
+				INFOPLIST_FILE = "PhDUnitModule-Info.plist";
+				PRODUCT_NAME = PhDUnitModule;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PhDUnitModule_Prefix.pch;
+				INFOPLIST_FILE = "PhDUnitModule-Info.plist";
+				PRODUCT_NAME = PhDUnitModule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: CHENG YANG (795A46Y75Y)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PhDUTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PhDUnitModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
